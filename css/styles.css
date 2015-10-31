@@ -1,139 +1,62 @@
 html, body {
-    height: 100%;
     max-width: 100%;
+    height: 100%;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
-    font-family: "Helvetica Neue";
+    font-family: "Avenir";
 }
 
-.navbar-default {
-    background-color: white;
+h1 {
+    font-size: 5em;
 }
 
-.navbar-default .navbar-brand {
-    color: #3498db;
+/* change text color to white of links */
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+
 }
 
-.navbar-default .navbar-nav > li > a {
-    color: #3498db;
-}
-
-.menu-button {
-    border: 0px solid transparent;
-}
-
-.icon-bar {
-    background-color: #3498db;
+/* show a slight change when hovering */
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #e0e0e0;
 }
 
 .main-page {
-    background-color: white;
-    height: 100%;
-    display: flex;
-    align-items: center;
+    margin: 0;
+    height: auto;
+    background-image: url('../img/ferrybuilding.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: left top;
 }
 
-.name-title {
-    font-size: 6em;
-    text-align: center;
+.title {
 }
 
-.name-subtitle {
-    font-size: 3em;
-    text-align: center;
-    color: #3498db;
-}
-
-.ultra-light-font {
-    font-family: "Helvetica Neue";
+.name {
+    width: 100%;
+    margin: 0 auto auto auto;
     font-weight: 200;
+    color: black;
+    text-align: center;
+}
+
+.profession {
+    font-weight: 200;
+    color: #fe3541;
+    text-align: center;
+}
+
+.hidden-img {
+    visibility: hidden;
+    width: 100%;
+    height: auto;
+    z-index: 0;
+    position: relative;
 }
 
 .about-page {
-    background-color: #e14d4c;
-    color: white;
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
-
-
-.center-block {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
- }
-
- .hidden-img {
-    opacity: 0;
-    visibility: hidden;
-
-    /* Make the image appear on the left edge of the screen */
-    -webkit-transform: translateX(-100%);
-    -moz-transform: translateX(-100%);
-    -o-transform: translateX(-100%);
-    transform: translateX(-100%);
-
-    /* Make it slide over to the right edge, and show it */
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
- }
-
- .visible-img {
-    opacity: 1;
-    visibility: visible;
-    -webkit-transform: translateX(0%);
-    -moz-transform: translateX(0%);
-    -o-transform: translateX(0%);
-    transform: translateX(0%);
- }
-
- .center-div {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
- }
-
- .full-height-div {
-    height: 100%;
- }
-
-.project-page {
-    color: white;
-    background-color: #2875a8;
-    min-height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
-
-.more-projects {
-    margin: auto;
-    display: flex;
-    align-items: center;
-}
-
-.project-page .row > div:last-child {
-    margin-right: 0;
-}
-
-.horizontal-center {
-    display: block;
-    margin: auto;
-}
-
-.contact-page {
-    background-color: #f5ab35;
-    height: 100%;
-    color: white;
-    display: flex;
-    align-items: center;
-}
-
-.white-border {
-    border: 5px solid white;
-    border-radius: 50%;
+    height: auto;
+    background-color: #fe3541;
 }
