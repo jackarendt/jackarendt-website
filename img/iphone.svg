@@ -3,21 +3,20 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 400 800" style="enable-background:new 0 0 400 800;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;stroke:#FFFFFF;stroke-width:16;stroke-miterlimit:10;}
-	.st1{fill:none;stroke:#FFFFFF;stroke-width:10;stroke-linecap:round;stroke-miterlimit:10;}
+	.st0{fill:none;stroke:#FFFFFF;stroke-width:6;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:6;stroke-linecap:round;stroke-miterlimit:10;}
 	.st2{fill:#FFFFFF;}
-	.st3{fill:none;stroke:#FFFFFF;stroke-width:10;stroke-miterlimit:10;}
 </style>
 <g>
-	<path class="st0" d="M308.7,791.8H91.3c-38.9,0-70.5-31.6-70.5-70.5V78.7c0-38.9,31.6-70.5,70.5-70.5h217.4
-		c38.9,0,70.5,31.6,70.5,70.5v642.6C379.2,760.2,347.6,791.8,308.7,791.8z"/>
-	<line class="st0" x1="20.8" y1="128.3" x2="379.2" y2="128.3"/>
-	<line class="st0" x1="20.8" y1="658.4" x2="379.2" y2="658.4"/>
-	<line class="st1" x1="151.4" y1="73.5" x2="248.5" y2="73.5"/>
-	<circle class="st2" cx="126.6" cy="73.5" r="7.9"/>
-	<circle class="st3" cx="200" cy="719" r="26.7"/>
-	<rect x="379.2" y="196.5" class="st2" width="12.9" height="74.9"/>
-	<rect x="7.8" y="196.5" class="st2" width="12.9" height="64.8"/>
-	<rect x="7.8" y="269" class="st2" width="12.9" height="64.8"/>
+	<path class="st0" d="M309.1,791.4H91.8c-38.9,0-70.5-31.6-70.5-70.5V78.4c0-38.9,31.6-70.5,70.5-70.5h217.4
+		c38.9,0,70.5,31.6,70.5,70.5v642.6C379.7,759.9,348.1,791.4,309.1,791.4z"/>
+	<line class="st0" x1="21.3" y1="127.9" x2="379.7" y2="127.9"/>
+	<line class="st0" x1="21.3" y1="658.1" x2="379.7" y2="658.1"/>
+	<line class="st1" x1="151.9" y1="73.2" x2="249" y2="73.2"/>
+	<circle class="st2" cx="127" cy="73.2" r="7.9"/>
+	<circle class="st0" cx="200.5" cy="718.6" r="26.7"/>
+	<rect x="13.2" y="196.1" class="st2" width="8.6" height="64.8"/>
+	<rect x="379.7" y="201" class="st2" width="8.6" height="64.8"/>
+	<rect x="13.9" y="268.7" class="st2" width="7.9" height="64.8"/>
 </g>
 </svg>
