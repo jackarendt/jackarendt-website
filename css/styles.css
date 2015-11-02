@@ -4,7 +4,6 @@ html, body {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
-    font-family: "Avenir";
     -webkit-padding-start: 0px;
 }
 
@@ -55,6 +54,10 @@ p {
 }
 
 /** section title css */
+
+.title-font {
+    font-family: "Avenir"
+}
 
 .section-title {
     display: flex;
@@ -185,7 +188,6 @@ p {
 
 .contact-page {
     background-color: black;
-    min-height: 40%;
 }
 
 .button-container {
@@ -210,4 +212,42 @@ p {
     background-color: white;
     text-decoration: none;
     color: black;
+}
+
+/****************************/
+/*     ABOUT PAGE STYLES    */
+/****************************/
+
+.title-about {
+    padding-top: 50px;
+    background-color: #fe3541;
+    overflow: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .title-about {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.bordered-img {
+    margin: 15% auto 15% auto;
+    border: 4px solid white;
+    border-radius: 50%;
+}
+
+.block-quote {
+    font-weight: lighter;
+    font-size: 2em;
+}
+
+.extra-bottom-padding {
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .block-quote {
+        font-size: 1.5em;
+    }
 }
