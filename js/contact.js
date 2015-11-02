@@ -1,15 +1,15 @@
 (function ($) {
     $(document).ready(function() {
         $('#twitter').on('click', function(e){
-            window.location.href = 'http://twitter.com/woogidy_woogidy';
+            window.open('http://twitter.com/woogidy_woogidy', '_blank');
         });
 
         $('#linkedin').on('click', function(e){
-            window.location.href = 'http://linkedin.com/in/johnrarendt';
+            window.open('http://linkedin.com/in/johnrarendt', '_blank');
         });
 
         $('#email').on('click', function(e){
-            window.location.href = 'mailto:jack.arendt1993@gmail.com';
+            window.open('mailto:jack.arendt1993@gmail.com', '_blank');
         });
     });
 }(jQuery));
