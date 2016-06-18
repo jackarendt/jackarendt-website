@@ -1,7 +1,7 @@
 (function ($) {
     $(document).ready(function() {
-        $('#twitter').on('click', function(e){
-            window.open('http://twitter.com/woogidy_woogidy', '_blank');
+        $('#medium').on('click', function(e){
+            window.open('https://medium.com/@jackarendt/', '_blank');
         });
 
         $('#linkedin').on('click', function(e){

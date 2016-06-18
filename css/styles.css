@@ -57,7 +57,7 @@ p {
 /** section title css */
 
 .title-font {
-    font-family: "Avenir"
+    font-family: "Avenir", "Helvetica", sans-serif;
 }
 
 .section-title {
@@ -96,18 +96,43 @@ p {
 }
 
 .black-title {
-    color: black;
+    color: #1b1b1b;
 }
 
 
  /* main page css */
 .main-page {
+    background-image: url('../img/ferrybuilding.jpg');
     background-position: 25% 0%;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-size: 100% auto;
     margin: 0;
     display: flex;
     align-items: center;
+    padding-top: 50px;
+    height: 35vw;
+
+}
+
+@media screen and (max-width: 768px) {
+    .main-page {
+        background-size: auto;
+        background-image: url('../img/ferrybuilding-small.jpg');
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .main-page {
+        background-size: auto;
+        height: 52.5vw;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .main-page {
+        background-size: auto;
+        height: 70vw;
+    }
 }
 
 .title {
@@ -117,21 +142,21 @@ p {
 .name {
     margin: 0 auto auto auto;
     font-weight: normal;
-    color: black;
+    color: #1b1b1b;
     text-align: center;
 }
 
 .profession {
     font-weight: 200;
     font-size: 2em;
-    color: #fe3541;
+    color: #ee454f;
     text-align: center;
 }
 
 /* About page css */
 .about-page {
     height: auto;
-    background-color: #fe3541;
+    background-color: #ee454f;
     position: relative;
     padding-bottom: 5%;
 }
@@ -175,7 +200,7 @@ p {
 }
 
 .title-link {
-    color: black;
+    color: #1b1b1b;
     text-decoration: none;
     transition: all 0.2s;
 }
@@ -188,7 +213,7 @@ p {
 /* Contact Page css */
 
 .contact-page {
-    background-color: black;
+    background-color: #1b1b1b;
 }
 
 .button-container {
@@ -212,7 +237,7 @@ p {
 .bordered-button:hover {
     background-color: white;
     text-decoration: none;
-    color: black;
+    color: #1b1b1b;
 }
 
 /****************************/
@@ -221,7 +246,7 @@ p {
 
 .title-about {
     padding-top: 50px;
-    background-color: #fe3541;
+    background-color: #ee454f;
     overflow: auto;
 }
 

@@ -70,6 +70,16 @@
             </div>
             <div class='row centered-row'>
                 <div class='col-xs-6 col-xs-offset-3 col-sm-1 col-sm-offset-1'>
+                    <img src='img/sierra-valley-logo.svg' alt="Sierra Valley Logo">
+                </div>
+                <div class='col-xs-10 col-xs-offset-1 col-sm-8'>
+                    <h3 class='project-title'>SIERRA VALLEY</h3>
+                    <p>Coming Soon! Up the mountains and through the valleys, get to the highest peak for the best view. Just be careful of the different obstacles that come in your way. Whether it's a spike pit, or an avalanche, or even an earthquake, nothing can stop you on your way to the summit. The app is written in Swift 2.1, and uses SpriteKit for it's development. Coming soon to iOS and tvOS.</p>
+                </div>
+            </div>
+
+            <div class='row centered-row'>
+                <div class='col-xs-6 col-xs-offset-3 col-sm-1 col-sm-offset-1'>
                     <img src='img/quickcrave.png' alt="Quickcrave">
                 </div>
                 <div class='col-xs-10 col-xs-offset-1 col-sm-8'>
@@ -87,6 +97,14 @@
                 </div>
             </div>
 
+            <div class='row'>
+                <div class='col-xs-6 col-xs-offset-3 col-sm-1 col-sm-offset-1'>
+                </div>
+                <div class='col-xs-10 col-xs-offset-1 col-sm-8'>
+                    <h3 class='project-title'>DEPLOYMENT AUTOMATION</h3>
+                    <p>As one of my main projects at Visa, I worked on developing a way to automatically deploy iOS Applications to the App Store, as well as our own internal one. The main problem that we experienced was that we had multiple development accounts based on teams, and that sharing apps between teams was very cumbersome, and everyone had their own methods. After much deliberation and research, we ended up using <a href="https://www.hockeyapp.net/features/">HockeyApp</a> exclusively for releasing using an enterprise certificate. The python script that I wrote takes in an Xcode Archive file from a jenkins job, and registers the app with Apple Developer, then generates provisioning profiles for distribution, and changes the metadata of the application. It then resigns the whole archive, and creates an IPA file from the archive. This IPA file is then uploaded to Hockey. A method that took anywhere between a couple hours to a few days, now takes less than a minute. It also greatly reduces the need to share keys, and having to constantly revoke distribution keys, allowing for a more effective, and safer release of applications.</p>
+                </div>
+            </div>
 
             <div class='section-title black-title'>
                 <hr class='inline-hr inline-hr-left black-hr' style='color:black; background-color:black; height: 1px;'>
@@ -98,7 +116,7 @@
                 </div>
                 <div class='col-xs-10 col-xs-offset-1 col-sm-8'>
                     <h3 class='project-title'>PIPELINED MICROPROCESSOR</h3>
-                    <p>My senior year at UIUC, I helped create a five-staged pipelined processor using System Verilog.  The processor is based on the LC-3, and utilizes a multi-level cache with a write eviction buffer.  Most of my work was concentrated on creating the cache.  The cache consists of an I-cache and D-cache, as well as a 4-way set-associative L2 cache, with a 256 bit word size.  By making the L2 cache larger, and multicycle; we saw a performance boost of roughly 5-7%.
+                    <p>My senior year at UIUC, I helped create a five-staged pipelined processor using System Verilog.  The processor is based on the LC-3, and utilizes a multi-level cache with a write eviction buffer.  Most of my work was concentrated on creating the cache.  The cache consists of an I-cache and D-cache, as well as a 4-way set-associative L2 cache, with a 256 bit word size.  By making the L2 cache larger, and multicycle; we saw a performance boost of roughly 5-7%.</p>
                 </div>
             </div>
             <div class='row'>
@@ -106,7 +124,7 @@
                 </div>
                 <div class='col-xs-10 col-xs-offset-1 col-sm-8'>
                     <h3 class='project-title'>AIR HOCKEY</h3>
-                    <p>My junior year at UIUC, I helped create air hockey on an FPGA.  The program was written in VHDL and utilized a keyboard driver and a VGA driver for interaction.  The game allowed for multi-user input on the same keyboard.  The game also utilized sprites for the puck and the sticks. </p>
+                    <p>My junior year at UIUC, I helped create air hockey on an FPGA.  The program was written in VHDL and utilized a keyboard driver and a VGA driver for interaction.  The game allowed for multi-user input on the same keyboard.  The game also utilized sprites for the puck and the sticks.</p>
                 </div>
             </div>
             <div class='row'>
@@ -121,7 +139,32 @@
             </div>
         </section>
 
+        <section class='contact-page row'>
+            <div class='section-title white-title'>
+                <hr class='inline-hr inline-hr-left white-hr'>
+                <h3 class='title-font'>CONTACT</h3>
+                <hr class='inline-hr inline-hr-right white-hr'>
+            </div>
+            <div class='row'>
+                <div class='col-sm-4 col-xs-12'>
+                    <div class='button-container'>
+                        <button class='btn bordered-button title-font' id='medium'>MEDIUM</button>
+                    </div>
+                </div>
+                <div class='col-sm-4 col-xs-12'>
+                    <div class='button-container'>
+                        <button class='btn bordered-button title-font' id='linkedin'>LINKEDIN</button>
+                    </div>
+                </div>
+                <div class='col-sm-4 col-xs-12'>
+                    <div class='button-container'>
+                        <button class='btn bordered-button title-font' id='email'>EMAIL</button>
+                    </div>
+                </div>
+            </div>
+        </section>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src='js/bootstrap.min.js'></script>
+        <script src='js/contact.js'></script>
     </body>
 </html>
